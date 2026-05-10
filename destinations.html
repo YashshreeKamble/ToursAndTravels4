@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Voyageur Luxury Travel</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><i class='bx bxs-ship'></i> Voyageur</a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html" class="active">Destinations</a></li>
+                    <li><a href="experiences.html">Experiences</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-buttons">
+                <a href="#" class="btn btn-login">Login</a>
+                <a href="#" class="btn btn-primary">Book Now</a>
+                <div class="menu-icon" id="menu-icon">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Inner Hero -->
+    <section class="inner-hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/hero.jpg') center/cover no-repeat;">
+        <div class="inner-hero-content" style="text-align: center; color: white; padding-top: 150px; padding-bottom: 80px;">
+            <h1 style="font-size: 4rem;">Global Collection</h1>
+            <p style="font-size: 1.2rem; opacity: 0.9;">Discover the world's most exclusive sanctuaries.</p>
+        </div>
+    </section>
+
+    <!-- Destinations Grid -->
+    <section class="destinations" style="padding: 8rem 2rem; max-width: 1400px; margin: 0 auto;">
+        <div class="cards-container">
+            <!-- Card 1 -->
+            <div class="dest-card">
+                <div class="card-img">
+                    <img src="img/santorini.jpg" alt="Santorini">
+                    <div class="badge">Exclusive</div>
+                </div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3>Santorini, Greece</h3>
+                        <div class="rating"><i class='bx bxs-star'></i> 4.9</div>
+                    </div>
+                    <p class="description">Iconic sunsets and pristine white architecture overlooking the Aegean.</p>
+                    <div class="card-footer">
+                        <span class="price">$3,500 <span>/couple</span></span>
+                        <a href="#" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="dest-card">
+                <div class="card-img">
+                    <img src="img/borabora.jpg" alt="Bora Bora">
+                    <div class="badge">Bestseller</div>
+                </div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3>Bora Bora, Polynesia</h3>
+                        <div class="rating"><i class='bx bxs-star'></i> 5.0</div>
+                    </div>
+                    <p class="description">Overwater luxury villas and vibrant coral reefs for ultimate relaxation.</p>
+                    <div class="card-footer">
+                        <span class="price">$5,200 <span>/couple</span></span>
+                        <a href="#" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="dest-card">
+                <div class="card-img">
+                    <img src="img/swiss.jpg" alt="Swiss Alps">
+                </div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3>Zermatt, Switzerland</h3>
+                        <div class="rating"><i class='bx bxs-star'></i> 4.8</div>
+                    </div>
+                    <p class="description">Breathtaking alpine views, world-class skiing, and cozy chalets.</p>
+                    <div class="card-footer">
+                        <span class="price">$4,100 <span>/couple</span></span>
+                        <a href="#" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="dest-card">
+                <div class="card-img">
+                    <img src="img/maldives.jpg" alt="Maldives">
+                    <div class="badge">Private</div>
+                </div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3>Male, Maldives</h3>
+                        <div class="rating"><i class='bx bxs-star'></i> 4.9</div>
+                    </div>
+                    <p class="description">Crystal clear lagoons and absolute privacy in the heart of the Indian Ocean.</p>
+                    <div class="card-footer">
+                        <span class="price">$6,000 <span>/couple</span></span>
+                        <a href="#" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="dest-card">
+                <div class="card-img">
+                    <img src="img/paris.jpg" alt="Paris">
+                </div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3>Paris, France</h3>
+                        <div class="rating"><i class='bx bxs-star'></i> 4.9</div>
+                    </div>
+                    <p class="description">The timeless elegance of the city of lights, curated for the elite.</p>
+                    <div class="card-footer">
+                        <span class="price">$2,800 <span>/couple</span></span>
+                        <a href="#" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="dest-card">
+                <div class="card-img">
+                    <img src="img/kyoto.jpg" alt="Kyoto">
+                    <div class="badge">Cultural</div>
+                </div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3>Kyoto, Japan</h3>
+                        <div class="rating"><i class='bx bxs-star'></i> 4.8</div>
+                    </div>
+                    <p class="description">Zen gardens, traditional tea houses, and ancient imperial beauty.</p>
+                    <div class="card-footer">
+                        <span class="price">$3,900 <span>/couple</span></span>
+                        <a href="#" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo"><i class='bx bxs-ship'></i> Voyageur</a>
+                <p>Redefining luxury travel. Curating extraordinary experiences for the world's most discerning travelers.</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#"><i class='bx bxl-pinterest'></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Discover</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="experiences.html">Experiences</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get in Touch</h4>
+                <ul class="contact-info">
+                    <li><i class='bx bx-building-house'></i> 500 5th Ave, New York, NY</li>
+                    <li><i class='bx bx-phone-call'></i> +1 (800) 555-0199</li>
+                    <li><i class='bx bx-envelope'></i> concierge@voyageur.com</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Insider Access</h4>
+                <p>Join our exclusive mailing list for private offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit" class="btn-primary"><i class='bx bx-right-arrow-alt'></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Voyageur Luxury Travel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

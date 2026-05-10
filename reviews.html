@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voyageur - Luxury Travel</title>
+    <title>Guest Reflections - Voyageur Luxury Travel</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +20,10 @@
             <a href="index.html" class="logo"><i class='bx bxs-ship'></i> Voyageur</a>
             <nav class="navbar">
                 <ul class="nav-links">
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="destinations.html">Destinations</a></li>
                     <li><a href="experiences.html">Experiences</a></li>
-                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="reviews.html" class="active">Reviews</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -38,47 +38,52 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <span class="subtitle">Elevate Your Journey</span>
-            <h1>Extraordinary <br> <span class="highlight">Escapes</span></h1>
-            <p>Curated luxury travel experiences for those who seek the exceptional. Discover destinations that inspire and rejuvenate.</p>
+    <!-- Inner Hero -->
+    <section class="inner-hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/hero.jpg') center/cover no-repeat;">
+        <div class="inner-hero-content" style="text-align: center; color: white; padding-top: 150px; padding-bottom: 80px;">
+            <h1 style="font-size: 4rem;">Guest Reflections</h1>
+            <p style="font-size: 1.2rem; opacity: 0.9;">The stories of our most discerning travelers.</p>
         </div>
+    </section>
 
-        <!-- Glassmorphism Booking Form -->
-        <div class="booking-glass">
-            <form action="#" class="booking-form">
-                <div class="input-group">
-                    <label for="location">Location</label>
-                    <div class="input-box">
-                        <i class='bx bx-current-location'></i>
-                        <input type="text" id="location" placeholder="Dream destination?">
+    <!-- Reviews Grid -->
+    <section class="reviews" style="padding: 8rem 2rem; max-width: 1400px; margin: 0 auto;">
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="quote-icon"><i class='bx bxs-quote-left'></i></div>
+                <p class="review-text">"Our stay in Santorini was nothing short of magical. Every detail was flawlessly executed, allowing us to truly relax and immerse ourselves in the beauty."</p>
+                <div class="reviewer">
+                    <img src="img/user1.jpg" alt="Sarah Johnson">
+                    <div class="reviewer-info">
+                        <h4>Sarah Johnson</h4>
+                        <div class="rating"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></div>
                     </div>
                 </div>
-                <div class="divider"></div>
-                <div class="input-group">
-                    <label for="dates">Dates</label>
-                    <div class="input-box">
-                        <i class='bx bx-calendar-event'></i>
-                        <input type="date" id="dates">
+            </div>
+            
+            <div class="review-card">
+                <div class="quote-icon"><i class='bx bxs-quote-left'></i></div>
+                <p class="review-text">"An impeccable journey through the Swiss Alps. The curated itinerary and the exclusive chalets made this a trip we will cherish forever."</p>
+                <div class="reviewer">
+                    <img src="img/user2.jpg" alt="Michael Chen">
+                    <div class="reviewer-info">
+                        <h4>Michael Chen</h4>
+                        <div class="rating"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></div>
                     </div>
                 </div>
-                <div class="divider"></div>
-                <div class="input-group">
-                    <label for="travelers">Travelers</label>
-                    <div class="input-box">
-                        <i class='bx bx-group'></i>
-                        <select id="travelers">
-                            <option value="1">1 Traveler</option>
-                            <option value="2" selected>2 Travelers</option>
-                            <option value="3">3 Travelers</option>
-                            <option value="4">Family (4+)</option>
-                        </select>
+            </div>
+
+            <div class="review-card">
+                <div class="quote-icon"><i class='bx bxs-quote-left'></i></div>
+                <p class="review-text">"Bora Bora was a dream. The service and attention to luxury standard provided by Voyageur was unparalleled. We cannot wait to book our next escape."</p>
+                <div class="reviewer">
+                    <img src="img/user3.jpg" alt="Emma Davis">
+                    <div class="reviewer-info">
+                        <h4>Emma Davis</h4>
+                        <div class="rating"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></div>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-search"><i class='bx bx-search-alt'></i> Explore</button>
-            </form>
+            </div>
         </div>
     </section>
 

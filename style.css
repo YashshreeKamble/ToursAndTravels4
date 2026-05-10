@@ -238,7 +238,7 @@ header.scrolled .menu-icon {
     text-align: center;
     padding: 0 2rem;
     /* High quality luxury hero image */
-    background: linear-gradient(rgba(26, 54, 93, 0.4), rgba(26, 54, 93, 0.6)), url('template_2_hero_bg_1777912348037.png') center/cover no-repeat;
+    background: linear-gradient(rgba(26, 54, 93, 0.4), rgba(26, 54, 93, 0.6)), url('img/hero.jpg') center/cover no-repeat;
 }
 
 .hero-content {

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voyageur - Luxury Travel</title>
+    <title>Experiences - Voyageur Luxury Travel</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +20,9 @@
             <a href="index.html" class="logo"><i class='bx bxs-ship'></i> Voyageur</a>
             <nav class="navbar">
                 <ul class="nav-links">
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="destinations.html">Destinations</a></li>
-                    <li><a href="experiences.html">Experiences</a></li>
+                    <li><a href="experiences.html" class="active">Experiences</a></li>
                     <li><a href="reviews.html">Reviews</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -38,47 +38,59 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <span class="subtitle">Elevate Your Journey</span>
-            <h1>Extraordinary <br> <span class="highlight">Escapes</span></h1>
-            <p>Curated luxury travel experiences for those who seek the exceptional. Discover destinations that inspire and rejuvenate.</p>
+    <!-- Inner Hero -->
+    <section class="inner-hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/hero.jpg') center/cover no-repeat;">
+        <div class="inner-hero-content" style="text-align: center; color: white; padding-top: 150px; padding-bottom: 80px;">
+            <h1 style="font-size: 4rem;">Bespoke Experiences</h1>
+            <p style="font-size: 1.2rem; opacity: 0.9;">Tailored journeys that define luxury.</p>
         </div>
+    </section>
 
-        <!-- Glassmorphism Booking Form -->
-        <div class="booking-glass">
-            <form action="#" class="booking-form">
-                <div class="input-group">
-                    <label for="location">Location</label>
-                    <div class="input-box">
-                        <i class='bx bx-current-location'></i>
-                        <input type="text" id="location" placeholder="Dream destination?">
-                    </div>
+    <!-- Experiences Grid -->
+    <section class="experiences" style="padding: 8rem 2rem; max-width: 1400px; margin: 0 auto;">
+        <div class="services-grid">
+            <div class="service-box">
+                <div class="icon-wrapper">
+                    <i class='bx bx-diamond'></i>
                 </div>
-                <div class="divider"></div>
-                <div class="input-group">
-                    <label for="dates">Dates</label>
-                    <div class="input-box">
-                        <i class='bx bx-calendar-event'></i>
-                        <input type="date" id="dates">
-                    </div>
+                <h3>Luxury Accommodations</h3>
+                <p>Stay in world-renowned 5-star resorts, private villas, and exclusive boutique hotels curated for your comfort.</p>
+            </div>
+            <div class="service-box">
+                <div class="icon-wrapper">
+                    <i class='bx bx-restaurant'></i>
                 </div>
-                <div class="divider"></div>
-                <div class="input-group">
-                    <label for="travelers">Travelers</label>
-                    <div class="input-box">
-                        <i class='bx bx-group'></i>
-                        <select id="travelers">
-                            <option value="1">1 Traveler</option>
-                            <option value="2" selected>2 Travelers</option>
-                            <option value="3">3 Travelers</option>
-                            <option value="4">Family (4+)</option>
-                        </select>
-                    </div>
+                <h3>Fine Dining</h3>
+                <p>Savor exquisite culinary experiences curated by Michelin-starred chefs and local culinary experts.</p>
+            </div>
+            <div class="service-box">
+                <div class="icon-wrapper">
+                    <i class='bx bx-car'></i>
                 </div>
-                <button type="submit" class="btn btn-search"><i class='bx bx-search-alt'></i> Explore</button>
-            </form>
+                <h3>Private Transfers</h3>
+                <p>Seamless travel with premium chauffeurs, private jets, and luxury yachts at your disposal.</p>
+            </div>
+            <div class="service-box">
+                <div class="icon-wrapper">
+                    <i class='bx bx-spa'></i>
+                </div>
+                <h3>Wellness Retreats</h3>
+                <p>Rejuvenate your soul with exclusive spa treatments and holistic wellness programs in serene locations.</p>
+            </div>
+            <div class="service-box">
+                <div class="icon-wrapper">
+                    <i class='bx bx-palette'></i>
+                </div>
+                <h3>Cultural Immersion</h3>
+                <p>Deep dives into local traditions and arts with private guides and insider access to historical sites.</p>
+            </div>
+            <div class="service-box">
+                <div class="icon-wrapper">
+                    <i class='bx bx-support'></i>
+                </div>
+                <h3>24/7 Concierge</h3>
+                <p>Our dedicated team is available around the clock to fulfill your every request and ensure a flawless journey.</p>
+            </div>
         </div>
     </section>
 
